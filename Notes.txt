@@ -1,0 +1,111 @@
+- Syllabus
+1. Playwright + typeScript
+2. CICD - wityh Playwright , GitHub Actions
+3. Demonstrate it by executing it in AWS 
+4. How to tag, smoke test, regression tests and scedule them in execution
+
+-------------
+5. Practice all corner cases for Playwright and Browser automation
+-------------
+6. Performance testing interview prepration
+	- JMeter 
+	- Techniques for Scalability and Performance Testing
+-------------
+7. Test Planning
+8. Test Planning and Strategy
+9. Agile and Scrum
+10.Test Metrics
+-------------
+11. Playwright MCP
+12. Evals for LLM
+13. Use of AI in Tets Automation
+----------------------------------------------------------------------------------------------
+1. Playwright + TypeScript
+	- PW supports TS out of the box
+	- Run TypeScript compiler alongside Playwright in Github Actions
+2. npm init playwright@latest
+   npx playwright install- What is npx
+   npm install --save-dev @type/node
+   npm install --save-dev @playwright/test
+ 3. Browser , Browser Context, Page
+	- Automate a multiuser chat application using websockets - https://www.youtube.com/watch?v=VGlkSBkMVCQ
+5. Trace Viewer
+	- How do you trace test failures when they run in remote CI - 
+6. Retry running failed test cases in Ci mode
+7. Parallel test execution,shardig 
+8. Data driven testing
+9. Multi page and table/grid handling in UI
+10. What is WebKit vs Chromium
+---------------
+- Locators 
+	- Role - what is accessible name
+	- Text
+	- Id
+	- locator chaining
+- Assert 
+	- equals vs strictEquals
+- nth
+- Timeouts
+	- test	- 30 s
+	- action - 0
+	- expect - 5s
+	- navigation - 30s
+--------------------
+- JavaScript
+	- map
+	- reduce
+	-find
+	- filter
+	-foreach
+	-sort
+------------------
+Debugging
+- Error Debugging
+- Live Debugging
+--------------------
+Questions
+-- Locator Startegy
+-- Timeout Strategy
+-- Falky test Strategy
+-- Page Object Model
+-- Assertions Strategy
+-- Topics
+Playwright architecture
+Browser → BrowserContext → Page hierarchy
+Playwright driver/process model
+Chromium vs Firefox vs WebKit
+BrowserContext isolation
+Page lifecycle
+Locator architecture
+Auto-waiting
+Actionability checks
+Retry-ability
+Event-driven APIs
+Playwright Test Runner architecture
+Fixtures
+Workers
+Projects
+- Selenuium Vs Playwright
+-----------------------------------------Finals-------------------------
+1. Multiple Authentication using of test cases - storageState(21)
+2. Locator strategy - has,hastext,locator(),filter(),nth - Custom Locator(21)
+3. Handle Flaky tests strategy.(21)
+4. Page Object with chaining
+5. Best Practices(21)
+6. TimeOut Strategy, Auto-waiting
+7. Filtering Tests, Annotations
+8. Fixtures
+9. Global Setup and Tear Down(21)
+10.Parallelism
+11.Parametrize tests
+12. Reporter
+13. Sharding 
+14. Component Testing
+15. Agents, MCP(21)
+16. GitHub Actions(21)
+17. Multi User testing - Browser, Browser Context, Page
+18. Trace Viewer(21)
+19. Handling Popups,Alerts, PAges,ShallowElements
+-----Performance Testing--------
+16. 
+-----Test Management------------
